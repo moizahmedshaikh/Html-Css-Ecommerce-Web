@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Clothing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-bar">
+        <div class="logo">Fashion</div>
+        
+        <ul id="side-bar">
+          <li><i onclick=closeSideBar() class="fa-solid fa-x"></i></></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Womens</a></li>
+         <li><a href="#">Mens</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Womens</a></li>
+         <li><a href="#">Mens</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="options">
+          <a href="#">Login</a>
+          <a href="#">/</a>
+          <a href="#">Register</a>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <i onclick=showSideBar() id="nav-icon" class="fa-solid fa-bars"></i>
+        
+      </nav>
+    </header>
+  
+
+    <div class="hero-section">
+      <div class="left">
+        <div class="description">
+          <h2>Womens Fashion</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing <br />
+            elit Repudiandae
+          </p>
+          <a class="btn-hover" href="">Shop Now</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="box1 des">
+          <h2>Men's F</h2>
+          <p>358 items</p>
+          <a class="btn-hover" href="">Shop Now</a>
+        </div>
+        <div class="box2 des">
+          <h2>Cosmetics</h2>
+          <p>567 items</p>
+          <a class="btn-hover" href="">Shop Now</a>
+        </div>
+        <div class="box3 des">
+          <h2>Accessories</h2>
+          <p>153 items</p>
+          <a class="btn-hover" href="">Shop Now</a>
+        </div>
+        <div class="box4 des">
+          <h2>Kids Fashion</h2>
+          <p>792 items</p>
+          <a class="btn-hover" href="">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop-section">
+      <nav id="nav-bar-2">
+        <div class="part-1">
+          <h2 class="btn-hover">New Product</h2>
+        </div>
+        <div class="part-2">
+          <a class="btn-hover" href="">All</a>
+          <a class="btn-hover" href="">Womens</a>
+          <a class="btn-hover" href="">Mens</a>
+          <a class="btn-hover" href="">Kids</a>
+          <a class="btn-hover" href="">Accessories</a>
+          <a class="btn-hover" href="">Cosmetics</a>
+        </div>
+      </nav>
+      <div class="card-list">
+        <!-- 1st image -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/young-beautiful-woman-coat-looks-very-happy_1218867-128616.jpg?w=360"
+            alt="women"
+          />
+          <h5>Button tweez blazer</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$49.00</p>
+        </div>
+        <!-- 2nd image -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/portrait-fashionable-boy-drinking-within-frame_23-2148184623.jpg?t=st=1727408636~exp=1727412236~hmac=4c515c0ce1584e0b583be4fb988122f5ed1bdcf5b8ed4468100ec6485b433fd0&w=360"
+            alt="boy"
+          />
+          <h5>flowy stripped skirt</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$69.00</p>
+        </div>
+        <!-- 3rd image -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/playful-girl-with-skateboard_23-2148478863.jpg?t=st=1727409067~exp=1727412667~hmac=72b19b875e907c2ac6ee045b993319976d4b9a07f25a9c01609e94ee8e21e41e&w=360"
+            alt="girl"
+          />
+          <h5>Cotton T-Shirt</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$49.00</p>
+        </div>
+
+        <!-- 4th image -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/cheerful-attractive-teenage-girl-casual-fashion-clothes_1218867-222031.jpg?w=360"
+            alt="girl"
+          />
+          <h5>Slim stripped pocket shirt</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+          </div>
+          <p>$59.00</p>
+        </div>
+
+        <!-- 5th -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/close-up-portrait-beautiful-teenager_23-2149153355.jpg?t=st=1727409592~exp=1727413192~hmac=85cc7785bb1b160672107d0c32ec5acf71f634b4bbc7eecefdb26fc204553af4&w=360"
+            alt="kid"
+          />
+          <h5>Casual T-shirt</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$39.00</p>
+        </div>
+
+        <!-- 6th -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/woman-green-dress-hat-yellow-background_1303-10512.jpg?t=st=1727409945~exp=1727413545~hmac=0a544fae970dff4394254689b286d4afcd1981acbf80234409b180f7d0abe90d&w=360"
+            alt="women"
+          />
+          <h5>Maxi Dress with Sandals</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$59.00</p>
+        </div>
+
+        <!-- 7th -->
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/male-beauty-concept-portrait-fashionable-young-man-with-stylish-haircut-wearing-trendy-suit-posing-red-background_155003-21663.jpg?t=st=1727410117~exp=1727413717~hmac=d8fe5f8641d8ceb0f8e0c3262c2bbf90f94045deb397497858d54975ad789b7b&w=360"
+            alt="man"
+          />
+          <h5>Formal suit and Tie</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+          </div>
+          <p>$79.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/fashion-model-blonde-girl-pink-clothes-yellow-background_156359-1099.jpg?w=360"
+            alt="girl"
+          />
+          <h5>Onesie Pajamas</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$49.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/front-view-young-female-black-dress-with-chain-belt-doing-make-up-beige_140725-24170.jpg?t=st=1727411249~exp=1727414849~hmac=f87f1cc073074ccd6f514e6d36b04750a6ffdc6fecd8b72a6bb07858af53f715&w=826"
+            alt="women"
+          />
+          <h5>Foundation</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$29.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/enthusiastic-caucasian-guy-smiling-encouraging-you-keep-going_1173242-1058.jpg?w=740"
+            alt="boy"
+          />
+          <h5>Men's Watches</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$69.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/woman-with-lot-products-her-face_1197721-13368.jpg?w=740"
+            alt="women"
+          />
+          <h5>Make Over</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa"></span>
+          </div>
+          <p>$59.00</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/fashion-model-bags_1068830-54.jpg?w=360"
+            alt="bags"
+          />
+          <h5>Hand Bags</h5>
+          <div class="stars">
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+            <span class="fa fa-star fa checked"></span>
+          </div>
+          <p>$69.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="vedio-section">
+      <video autoplay loop muted src="./cloth-viedo.mp4"></video>
+    </div>
+
+    <footer>
+      <div class="foot-panel">
+        <ul>
+          <p>Get to Know Us</p>
+          <a>Careers</a>
+          <a>Blog</a>
+          <a>About Fashion</a>
+          <a>Investor Relations</a>
+          <a>Clothes Devices</a>
+          <a>Clothes Science</a>
+        </ul>
+        <ul>
+          <p>Make Money with Us</p>
+          <a>Sell products on Fashion</a>
+          <a>Sell on Fashion Business</a>
+          <a>Become an Affiliate</a>
+          <a>Advertise Your Products</a>
+          <a>Self-Publish with Us</a>
+          <a>›See More Make Money with Us</a>
+        </ul>
+        <ul>
+          <p>Amazon Payment Products</p>
+          <a>Amazon Business Card</a>
+          <a>Shop with Points</a>
+          <a>Reload Your Balance</a>
+          <a>Amazon Currency Converter</a>
+        </ul>
+        <ul>
+          <p>Let Us Help You</p>
+          <a>COVID-19</a>
+          <a>Your Account</a>
+          <a>Your Orders</a>
+          <a>Shipping Rates & Policies</a>
+          <a>Returns & Replacements</a>
+          <a>Manage Your Content and Devices</a>
+          <a>Fashion Assistant</a>
+          <a>Help</a>
+        </ul>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/moizahmedshaikh" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/moiz-ahmed-6516b728a"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://web.facebook.com/moizahmed.shiakh/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+
+      <div class="foot-panel4">
+        <div class="condition">
+          <a>Conditions of Use</a>
+          <a>Privacy Notice</a>
+          <a>Your Ads Privacy Choices</a>
+        </div>
+        <div class="copyright">
+          © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function showSideBar(){
+        const sideBar = document.querySelector("#side-bar")
+        sideBar.style.display = "flex"
+      }
+      function closeSideBar(){
+        const sideBar = document.querySelector("#side-bar")
+        sideBar.style.display = "none"
+      }
+    </script>
+  </body>
+</html>
